@@ -56,6 +56,10 @@
     padding-bottom: 94px;
 }
 
+.section-employment{
+    padding-top: 0px;
+}
+
 .body {
     background-color: var(--primary-bg-color);
     color: var(--primary-text-color);
@@ -69,12 +73,12 @@
 
 .header {
     background-color: var(--primary-bg-color);
+    border-bottom: 1px solid var(--line-color);
 }
 
 .header-block {
     display: flex;
     align-items: center;
-    border-bottom: 1px solid var(--line-color);
 }
 
 .nav {
@@ -324,6 +328,10 @@
     display: flex;
 }
 
+.team-item{
+    background-color: var(--white-color);
+}
+
 .team-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -449,6 +457,7 @@
     cursor: pointer;
     border-radius: 4px;
     border: transparent;
+    padding: 6px 22px;
 }
 
 .portfolio-button:hover,
